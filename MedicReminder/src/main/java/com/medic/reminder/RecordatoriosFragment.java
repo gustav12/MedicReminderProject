@@ -168,6 +168,7 @@ public class RecordatoriosFragment extends Fragment {
             alertDialog.show();
         }catch (Exception ex){
             ex.printStackTrace();
+            //test github
         }
     }//BorrarItemSeleccionado
 
