@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MedicReminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="sucursales_title">Sucursales</string>
+    <string name="recordatorio_title">Recordatorios</string>
+    <string name="title_section3">Section 3</string>
+    <string name="sucursal_text">Sucursales de la Farmacia</string>
+    <string name="recordatorio_text">Medicamentos a tomar</string>
+    <string name="logo_description">Logo</string>
+    <string name="title_activity_xml_parser">XmlParser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty_text">No hay recordatorios por ahora!</string>
+    <string name="agregarnuevo_text">Agregar nuevo..</string>
+    <string name="nuevo_recordatorio_text">Nuevo Recordatorio</string>
+    <string name="nombre_medicamento_text">Nombre del medicamento</string>
+    <string name="descripcion_medicamento_text">Descripcion..</string>
+    <string name="hora_inicio_recordatorio_text">Hora inicio:</string>
+    <string name="guardar_nuevo_record_text">Guardar</string>
+
+</resources>

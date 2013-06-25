@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNombreMedicamento"
+            android:layout_marginTop="20dp"
+            android:hint="@string/nombre_medicamento_text"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDescripcion"
+            android:layout_marginTop="20dp"
+            android:hint="@string/descripcion_medicamento_text"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Repetir Cada"
+                android:id="@+id/lblTomarCada"
+                android:layout_marginTop="20dp"/>
+
+        <EditText
+                android:id="@+id/txtRepeticion"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:hint="(1 - 24)"
+                android:textAlignment="center"
+                android:numeric="integer"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="hs."
+                android:id="@+id/lblHs"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/hora_inicio_recordatorio_text"
+            android:id="@+id/lblHoraInicio"
+            android:layout_marginTop="20dp"/>
+
+    <TimePicker
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePicker"
+            android:layout_marginTop="0dp"/>
+
+    <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar_nuevo_record_text"
+            android:layout_marginTop="0dp"
+            android:drawableRight="@android:drawable/ic_menu_save"/>
+
+</LinearLayout>

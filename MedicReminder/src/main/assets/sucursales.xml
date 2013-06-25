@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sucursales>
+    <sucursal>
+        <descripcion>Central</descripcion>
+        <direccion>Estrella 526 c/ 14 de Mayo</direccion>
+        <telefonos>021-500300</telefonos>
+    </sucursal>
+
+    <sucursal>
+        <descripcion>Quinta</descripcion>
+        <direccion>Avda. Quinta e/ Caballero</direccion>
+        <telefonos>021-870024</telefonos>
+    </sucursal>
+
+    <sucursal>
+        <descripcion>Sajonia</descripcion>
+        <direccion>Avda. Carlos A. López 933 e/ Dr. Paiva y Testanova</direccion>
+        <telefonos>0228-630114</telefonos>
+    </sucursal>
+
+    <sucursal>
+        <descripcion>Tacuary</descripcion>
+        <direccion>Tacuary 620 e/ 25 de Mayo</direccion>
+        <telefonos>0228-630114</telefonos>
+    </sucursal>
+
+    <sucursal>
+        <descripcion>Carmelitas</descripcion>
+        <direccion>Avda. San Martín e/ Federación Rusa</direccion>
+        <telefonos>0228-630114</telefonos>
+    </sucursal>
+
+    <sucursal>
+        <descripcion>Hiper España</descripcion>
+        <direccion>España e/ Pitiantuta</direccion>
+        <telefonos>0228-630114</telefonos>
+    </sucursal>
+
+    <sucursal>
+        <descripcion>Mcal Lopez</descripcion>
+        <direccion>Avda. Mcal Lopez 3683 c/ Senador Long</direccion>
+        <telefonos>0228-630114</telefonos>
+    </sucursal>
+
+
+</sucursales>
